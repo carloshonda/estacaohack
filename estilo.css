@@ -1,3 +1,46 @@
 body{
     margin:0;
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+h1,h2{
+    color: red;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    height: 200px;
+}
+
+nav{
+    margin-top: 40px;
+}
+
+aside{
+    position: absolute;
+    left: 0;
+    height: :60vh;
+    width: 300px;
+    background-color: grey;
+}
+
+section{
+    position: relative;
+    left: 300px;
+    max-width: 60vw;
+}
+
+footer{
+    position: absolute;
+    left: 300px;
+}
+
+button{
+    background-color: gray;
+    text.transform: uppercase;
+    padding: 10px;
 }
